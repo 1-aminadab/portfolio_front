@@ -78,7 +78,7 @@ function Review() {
                             <img onClick={()=> setReview(id)} src={project.projectThumbnail} alt="" />
                             <div className="project-desc">
                                 <h3>{project.description}</h3>
-                                <a href={project.githubLink}><li><GitHubIcon /></li></a>
+                                <a href={project.githubLink}><GitHubIcon /></a>
                             </div>
                             
                             <div  className="project-preview-img" style={{display:`${(reviewIndex === id && openReview) ? 'flex' : 'none'}`}}>

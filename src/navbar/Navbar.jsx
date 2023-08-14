@@ -47,8 +47,8 @@ function Navbar() {
       <div className="links">
         <ul>
           <li><a href="https://mail.google.com/mail/u/developer.amanuel@gmail.com?"><EmailIcon /></a> </li>
-          <li><a href="https://www.linkedin.com/in/amanuel-tadesse-870416232"></a><LinkedInIcon /></li>
-          <li><a href="https://web.telegram.org"></a><TelegramIcon /></li>
+          <li><a href="https://www.linkedin.com/in/amanuel-tadesse-870416232"><LinkedInIcon /></a></li>
+          <li><a href="https://web.telegram.org"><TelegramIcon /></a></li>
           <li><a href="https://github.com/1-aminadab"><GitHubIcon /></a></li>
         </ul>
       </div>

@@ -25,7 +25,7 @@
     display: flex;
     gap: 20px;
 }
-.nav-bar .links > ul li{
+.nav-bar .links > ul > li{
    transition: all 100ms;
     cursor:pointer;
     color: var(--light-mode);
@@ -52,7 +52,6 @@
     font-weight: 600;
     color: white;
     filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.527));
-   
 }
 .nav-options ul li:hover{
     font-family: "Tilt Prism", cursive;
@@ -70,6 +69,5 @@
     }
     .nav-options ul{
         padding-left: 9px;
-    
     }
    }

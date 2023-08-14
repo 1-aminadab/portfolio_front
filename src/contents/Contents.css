@@ -196,6 +196,7 @@
  overflow-x:scroll;
  transition: all 200ms;
 }
+
 .close-review{
   position:fixed;
   top: 5%;
@@ -256,6 +257,9 @@ hr {
   display: flex;
   justify-content: space-between;
   padding: 5px 20px;
+}
+.project-desc a{
+  cursor: pointer;
 }
 li {
   list-style: none;
