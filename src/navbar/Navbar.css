@@ -51,7 +51,8 @@
     cursor:pointer;
     font-weight: 600;
     color: white;
-    box-shadow: 0 0 5px white;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.527));
+   
 }
 .nav-options ul li:hover{
     font-family: "Tilt Prism", cursive;

@@ -49,7 +49,7 @@ function Review() {
   return (
     <div className="projects" id="projects">
     <h1>Projects</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate iusto mollitia? Obcaecati vero quae maxime unde eum, fuga ipsam?</p>
+    <p>Experience the perfect blend of captivating frontend, robust backend, and cutting-edge mobile app. Delightful user experience, seamless integration, and limitless possibilities await</p>
     <div className="project-list">
         <div className="prject-header">
         <ul>{
