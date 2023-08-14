@@ -1,0 +1,213 @@
+
+.welcome-message{
+   
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgba(255, 255, 255, 0.295);
+    box-shadow:20px 20px 5px rgba(0, 0, 0, 0.452) ;
+    border-radius: 30px;
+    backdrop-filter: blur(15px);
+    border: 1px solid white;
+}
+.message{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.message > button{
+    border: 1px solid white ;
+    border-radius: 10px;
+    transition: all 200ms;
+    background:rgb(0, 121, 115);
+}
+.message > button:hover{
+   border: 2px solid rgb(0, 121, 115);
+   background-color: white;
+   color:rgb(0, 121, 115);
+   font-weight: 600;
+}
+.message h1{
+    width: 80%;
+font-size: 60px;
+font-weight: 700;
+filter: drop-shadow(0 5px 5px black);
+}
+.message h1 > span{
+    font-family: 'Tilt Prism', cursive;
+    background: linear-gradient(135deg, rgb(20, 184, 248), rgb(0, 128, 75));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+.message h1>.my-name{
+    position: relative;
+    font-size: 80px;
+    background: linear-gradient(135deg, rgb(20, 184, 248), rgb(0, 128, 75));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    animation:mover 2s infinite ;
+    
+    
+}
+@keyframes mover {
+    0%{
+     background-position: 0%;
+    }
+    100%{
+        background-position: 0%;
+    }
+}
+
+.profile-picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-picture img{
+    height: 400px;
+    border-radius: 50%;
+}
+.name-works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name-works h1{
+    background: linear-gradient(135deg, rgb(20, 184, 248), rgb(4, 128, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*  */
+.card .piece1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 140, 255);
+    position:relative;
+    clip-path:polygon(0 0 , 100% 50% , 0% 100%) 
+    
+}
+.card .piece1::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(204, 209, 204);
+    transform-origin: left;
+    rotate: 135deg;
+    transform: translateX(-50%);
+}
+
+#portfolio {
+    text-align: center;
+  }
+  
+  .section-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .section-list li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .project-preview {
+    display: none;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+  }
+  
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .slide-buttons {
+    margin-top: 20px;
+  }
+  
+  .prev,
+  .next {
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Additional styling for the project previews */
+  .project-preview {
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .project-preview img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  @media screen and (max-width: 760px) {
+    .welcome-message{
+        flex-direction: column-reverse;
+        padding: 30px;
+    }
+    .profile-picture img{
+      height: 250px;
+      object-fit:cover;
+     }
+    .message{
+      display: flex;
+      align-items: center;
+      
+    }
+    .my-name{
+      font-size: 40px;
+    }
+   
+  }
+  
+  @media screen and (max-width: 850px) {
+   .message h1{
+    font-size: 40px;
+   }
+   .profile-picture img{
+   
+    height: 300px;
+    object-fit:cover;
+   }
+  }
+
+
+  hr{
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
