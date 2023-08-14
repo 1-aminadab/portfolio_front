@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Welcome from './welcome/Welcome'
-import Projects from './projects/Projects'
 import About from './about/About'
 import Contact from './contact/Contact'
 import Skills from '../skills/Skills'
