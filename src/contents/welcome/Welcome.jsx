@@ -8,7 +8,7 @@ function Welcome() {
     <div className="welcome-message" id='home'>
     <div className="message">
 
-        <h1>Hi I'm <span className="my-name">Amanuel</span> ,Turning <span>idea</span>  into <span>real</span> life is my Goal </h1>
+        <h1>Hi I'm <span className="my-name">Amanuel</span> <br /> a <span>young</span> passionate website developer with strong technical <span>skills</span>  and a passion for creating <span>impactful</span>  online experiences</h1>
         <div className='message-btn'>
               <button ><a href="#contact">Contact me</a></button>
               <button className='my-cv'><a href={MyCV} download> <span>Download CV</span><span><DownloadOutlinedIcon /></span></a></button>

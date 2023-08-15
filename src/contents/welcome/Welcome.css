@@ -31,11 +31,12 @@
 }
 .message h1{
     width: 80%;
-font-size: 60px;
+font-size: 30px;
 font-weight: 700;
-filter: drop-shadow(0 5px 5px black);
+/* filter: drop-shadow(0 5px 5px black); */
 }
 .message h1 > span{
+  
     font-family: 'Tilt Prism', cursive;
     background: linear-gradient(135deg, rgb(20, 184, 248), rgb(0, 128, 75));
     -webkit-background-clip: text;
@@ -45,7 +46,7 @@ filter: drop-shadow(0 5px 5px black);
 }
 .message h1>.my-name{
     position: relative;
-    font-size: 80px;
+    font-size: 50px;
     background: linear-gradient(135deg, rgb(20, 184, 248), rgb(0, 128, 75));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -195,9 +196,7 @@ filter: drop-shadow(0 5px 5px black);
   }
   
   @media screen and (max-width: 850px) {
-   .message h1{
-    font-size: 40px;
-   }
+  
    .profile-picture img{
    
     height: 300px;

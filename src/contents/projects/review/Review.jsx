@@ -16,7 +16,7 @@ const skilList = [
         active:false,
       },
       {
-        skill:'mobile-app',
+        skill:'mobile_app',
         active:false,
       }
     ]
