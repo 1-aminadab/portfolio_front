@@ -211,3 +211,24 @@ filter: drop-shadow(0 5px 5px black);
     display: flex;
     align-items: center;
   }
+ .message-btn{
+  display: flex;
+  gap:15px;
+
+ }
+ .message-btn button > a{
+  color: white;
+  cursor: pointer;
+ }
+ .message-btn .my-cv{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(0, 51, 43);
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.233);
+ }
+ .message-btn .my-cv a{
+  color:rgb(0, 51, 43) ;
+  font-weight: 600;
+ }
