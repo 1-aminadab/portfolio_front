@@ -340,6 +340,7 @@ li {
 .about p{
     line-height: 30px;
     color: var(--light-mode);
+    font-weight: 700;
 }
 .skill-list{
     width: 100%;
