@@ -20,6 +20,7 @@ const Contact = () => {
   const [checkMessage, setCheckMessage]= useState('')
   const [success, setSuccess] = useState()
   const [loading, setLoading] = useState(false)
+  const [color, setColor]= useState("")
   const handleNameChange = (e) => {
     setName(e.target.value);
   };
@@ -46,13 +47,15 @@ const Contact = () => {
         setLoading(false)
        setCheckMessage(response.data.message)
        setSuccess(response.data.success)
+       setColor(response.data.color)
 
       })
       .catch(error => {
         console.log(error.response.data.message);
         setLoading(false)
         setCheckMessage(error.response.data.message)
-       setSuccess(error.response.data.success)
+        setSuccess(error.response.data.success)
+        setColor(response.data.color)
       });
   };
   console.log(name, email, message);
@@ -86,7 +89,7 @@ const Contact = () => {
             onChange={handleMessageChange}
           ></textarea>
         </div>
-        <h4 style={{display:"flex", alignItems:"center", gap:"5px"}}>{(success && checkMessage.length > 0)  && <span style={{color:'green'}}><CheckCircleOutlineIcon /></span> } {checkMessage}</h4>
+        <h4 style={{display:"flex",color:{color}, alignItems:"center", gap:"5px"}}>{(success && checkMessage.length > 0)  && <span style={{color:'green'}}><CheckCircleOutlineIcon /></span> } {checkMessage}</h4>
         <button
           type="button"
           onClick={handleSendClick}
