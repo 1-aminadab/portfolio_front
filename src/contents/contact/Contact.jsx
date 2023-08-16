@@ -39,9 +39,8 @@ const Contact = () => {
       email: email,
       message: message
     };
-
+    setLoading(true)
     axios.post('https://my-portfolio-5tjc.onrender.com/', data)
-       setLoading(true)
       .then(response => {
        console.log(response.data.message);
         setLoading(false)
@@ -88,13 +87,14 @@ const Contact = () => {
           ></textarea>
         </div>
         <h4 style={{display:"flex", alignItems:"center", gap:"5px"}}>{(success && checkMessage.length > 0)  && <span style={{color:'green'}}><CheckCircleOutlineIcon /></span> } {checkMessage}</h4>
-        <div
+        <button
+          type="button"
           onClick={handleSendClick}
           className={isSent ? 'sent' : ''}
         >
-          <Button loading={loading}>{loading ? 'Sending' : <EmailIcon fontSize='large'/>}</Button>
-           
-        </div>
+
+           <Button loading={loading}>{loading ? 'Sending' : <EmailIcon fontSize='large'/>}</Button>
+        </button>
       </form>
       <div className="links">
         <ul>
