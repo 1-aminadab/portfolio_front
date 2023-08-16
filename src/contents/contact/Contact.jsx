@@ -5,6 +5,11 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+
+import Button from 'react-bootstrap-button-loader';
+
+
+
 import axios from 'axios';
 
 const Contact = () => {
@@ -14,6 +19,7 @@ const Contact = () => {
   const [isSent, setIsSent] = useState(false);
   const [checkMessage, setCheckMessage]= useState('')
   const [success, setSuccess] = useState()
+  const [loading, setLoading] = useState(false)
   const handleNameChange = (e) => {
     setName(e.target.value);
   };
@@ -35,15 +41,17 @@ const Contact = () => {
     };
 
     axios.post('https://my-portfolio-5tjc.onrender.com/', data)
+       setLoading(true)
       .then(response => {
        console.log(response.data.message);
-
+        setLoading(false)
        setCheckMessage(response.data.message)
        setSuccess(response.data.success)
 
       })
       .catch(error => {
         console.log(error.response.data.message);
+        setLoading(false)
         setCheckMessage(error.response.data.message)
        setSuccess(error.response.data.success)
       });
@@ -80,13 +88,13 @@ const Contact = () => {
           ></textarea>
         </div>
         <h4 style={{display:"flex", alignItems:"center", gap:"5px"}}>{(success && checkMessage.length > 0)  && <span style={{color:'green'}}><CheckCircleOutlineIcon /></span> } {checkMessage}</h4>
-        <button
-          type="button"
+        <div
           onClick={handleSendClick}
           className={isSent ? 'sent' : ''}
         >
-            <span><EmailIcon fontSize='large'/></span>
-        </button>
+          <Button loading={loading}>{loading ? 'Sending' : <EmailIcon fontSize='large'/>}</Button>
+           
+        </div>
       </form>
       <div className="links">
         <ul>
