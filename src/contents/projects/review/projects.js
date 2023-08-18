@@ -23,6 +23,19 @@ import Eduhub_9 from '../../../assets/e-learning/image_9.png'
 import chimny_1 from '../../../assets/chimny/image_1.png'
 import chimny_2 from '../../../assets/chimny/image_2.png'
 import chimny_3 from '../../../assets/chimny/image_3.png'
+// safetrack
+import Safetrack_1 from '../../../assets/safe-track/image_1.jpg'
+import Safetrack_2 from '../../../assets/safe-track/image_2.png'
+import Safetrack_3 from '../../../assets/safe-track/image_3.png'
+import Safetrack_4 from '../../../assets/safe-track/image_4.png'
+import Safetrack_5 from '../../../assets/safe-track/image_5.png'
+import Safetrack_6 from '../../../assets/safe-track/image_6.png'
+import Safetrack_7 from '../../../assets/safe-track/image_7.png'
+import Safetrack_8 from '../../../assets/safe-track/image_8.png'
+import Safetrack_9 from '../../../assets/safe-track/image_9.png'
+import Safetrack_10 from '../../../assets/safe-track/image_10.png'
+import Safetrack_11 from '../../../assets/safe-track/image_11.png'
+import Safetrack_12 from '../../../assets/safe-track/image_12.png'
 const data = [
     {
      projectTitle:"fullstack",
@@ -37,7 +50,7 @@ const data = [
         projectTitle:"fullstack",
         projectName: "safetruck",
         projectThumbnail:Safetrack,
-        projectPath:[],
+        projectPath:[Safetrack_1,Safetrack_2,Safetrack_3,Safetrack_4,Safetrack_5,Safetrack_6,Safetrack_7,Safetrack_8,Safetrack_9,Safetrack_10,Safetrack_11,Safetrack_12],
         description:"Warehouse Management system",
         githubLink:"https://github.com/1-aminadab/Inventory_Management",
         

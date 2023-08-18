@@ -20,7 +20,8 @@ const Contact = () => {
   const [checkMessage, setCheckMessage]= useState('')
   const [success, setSuccess] = useState()
   const [loading, setLoading] = useState(false)
-  const [color, setColor]= useState("")
+  const [color, setColor]= useState()
+ 
   const handleNameChange = (e) => {
     setName(e.target.value);
   };

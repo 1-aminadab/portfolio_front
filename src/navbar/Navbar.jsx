@@ -31,7 +31,7 @@ function Navbar() {
   return (
     <div className='nav-bar nav-blur'>
       <div className="nav-options">
-        <ul>
+        <ul style = {{display:"flex",justifyContent:"space-between", gap:"20px"}}>
           {
             navOptions.map((option, id)=>{
               return (

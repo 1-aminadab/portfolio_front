@@ -29,11 +29,12 @@ function Skills() {
         </div></Tilt>
         <Tilt options = {defaultOptions}>
         <div>
-          <h1>Frameworks</h1>
+          <h1>Frameworks/Librarys</h1>
           <ul>
             <li>Rect js</li>
             <li>Next js</li>
             <li>Node js</li>
+            <li>Redux</li>
             <li>Expres js</li>
             <li>Django</li>
             <li>PyQt</li>
