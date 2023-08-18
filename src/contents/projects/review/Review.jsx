@@ -63,7 +63,7 @@ function Review() {
             )
           })
         }</ul>
-           
+           <div className='scroll-projects'>
             <div className="sub-projects">
                 
               {
@@ -98,6 +98,7 @@ function Review() {
                     )
                 })
               }
+            </div>
             </div>
            {/* <Swiperjs /> */}
         </div>

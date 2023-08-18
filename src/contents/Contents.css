@@ -249,11 +249,7 @@ hr {
   color: gray;
 }
 
-.project-list {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-}
+
 .project-desc{
   display: flex;
   justify-content: space-between;
@@ -304,10 +300,22 @@ li {
   border: 1px solid white;
 }
 .sub-projects{
-    width: 60%;
+    width: 100%;
     display: flex;
     gap: 20px;
     overflow-x: scroll;
+    padding:  10px;
+}
+.scroll-projects{
+  width: 100vw;
+}
+.project-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow:0 0 5px rgba(0, 0, 0, 0.267);
+  border-radius: 20px;
+  
 }
 .sub-projects img {
   height: 400px;
@@ -318,6 +326,7 @@ li {
   box-shadow: 0 0 5px white;
   cursor: pointer;
 }
+
 
 /* About me  */
 .about ,.skills {
@@ -395,12 +404,13 @@ li {
 }
   /* Track */
   ::-webkit-scrollbar-track {
-    background: linear-gradient(135deg, rgba(0, 0, 255, 0.493), rgba(6, 168, 6, 0.63));
+    background: rgba(255, 255, 255, 0.466)
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.466)
+    background: rgb(0, 52, 77);
+   
 
   }
   
