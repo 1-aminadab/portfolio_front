@@ -29,11 +29,12 @@
 .random{
     position: absolute;
     
-    background:linear-gradient(135deg,rgba(0, 238, 255, 0.555), rgba(0, 58, 24, 0.452));
+    background:linear-gradient(135deg,rgba(0, 238, 255, 0.233), rgba(0, 5, 1, 0.336));
     border-radius: 50%;
     z-index: inherit;
     animation: random-anime 2s infinite linear;
     transition: all 200ms;
+    
 }
 .random:hover{
     box-shadow: 20px -20px 5px rgba(0, 0, 0, 0.103);

@@ -14,7 +14,8 @@ function Contents() {
         return [...prev,  {
           top:`${Math.random()*window.innerHeight-circleSize}px`,
           left:`${Math.random()*window.innerWidth-circleSize}px`,
-          size:`${Math.random()*circleSize}px`
+          size:`${Math.random()*circleSize}px`,
+          delay:`${Math.random()*3}s`
         }]
       })
      
@@ -26,7 +27,7 @@ function Contents() {
     <div className='contents'>
      {
       circleArray.map((circles)=>{
-        return <div className="random" style={{top:circles.top , left:circles.left, width:circles.size, height:circles.size}}>
+        return <div className="random" style={{top:circles.top , left:circles.left, width:circles.size, height:circles.size, animationDelay:circles.delay}}>
         </div>
       })
      }

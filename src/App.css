@@ -22,10 +22,12 @@ a{
 @media screen and (max-width: 450px) {
   .contents{
     margin: 0px;
+    margin-top: 50px;
   }
   .nav-bar .links > ul{
     display: none;  
 }
+
 .projects{
   padding: 10px;
 }
