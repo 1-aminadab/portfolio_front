@@ -40,7 +40,9 @@ function Navbar() {
           {
             navOptions.map((option, id)=>{
               return (
-                 <li onClick={()=>clickHandler(id)} key={id} className={`${clickedOption === id && 'active'}`}><a href={`#${option}`}>{option.toUpperCase()}</a> </li>
+                 <li onClick={()=>{
+                  clickHandler(id)
+                  setOpenNav(false)}} key={id} className={`${clickedOption === id && 'active'}`}><a href={`#${option}`}>{option.toUpperCase()}</a> </li>
               )
              
             })
@@ -57,10 +59,13 @@ function Navbar() {
           <li><a href="https://github.com/1-aminadab"><GitHubIcon /></a></li>
         </ul>
       </div>
-      <DayNightToggle
+      <div className='day-night-toggle'>
+          <DayNightToggle
       onChange={() => setDarkMode(!darkMode)}
       checked={darkMode}
     />
+      </div>
+    
     </div>
   )
 }
