@@ -6,11 +6,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Noto+Sans&family=Playfair+Display&family=Roboto:ital,wght@1,100&family=Ruwudu&family=Tilt+Prism&display=swap");
 .contents {
   margin: 70px;
+ 
   background-color: var(--dark-mode);
 }
 
 .welcome-message {
-  padding:10pz 0px;
+  padding:10px 0px;
   display: flex;
   align-items: center;
   gap: 50px;

@@ -114,6 +114,7 @@
         background-color: inherit;
         align-items: center;
         height: 0%;
+        border-bottom: 2px solid white;
         
     }
     .nav-options ul li{

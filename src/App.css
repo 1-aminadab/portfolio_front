@@ -22,7 +22,7 @@ a{
 @media screen and (max-width: 450px) {
   .contents{
     margin: 0px;
-    margin-top: 50px;
+    margin-top: 80px;
   }
   .nav-bar .links > ul{
     display: flex;  
