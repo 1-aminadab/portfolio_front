@@ -8,11 +8,13 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
+import MenuIcon from '@mui/icons-material/Menu';
 const navOptions =['home', 'projects', 'about', 'skill', 'contact']
 
 function Navbar() {
   const [darkMode, setDarkMode] = useState(false)
   const [clickedOption, setClickedOption] = useState(0)
+  const [openNav , setOpenNav] = useState(false)
   useEffect(()=>{
     handleDarkmode()
   },[darkMode])
@@ -30,7 +32,10 @@ function Navbar() {
   //////////
   return (
     <div className='nav-bar nav-blur'>
-      <div className="nav-options">
+      <div className='nav-menu' onClick={()=> setOpenNav(!openNav)}>
+      <MenuIcon fontSize='large'/>
+      </div>
+      <div className="nav-options" style={{animationName:`${openNav && 'nav-animation'}`}}>
         <ul style = {{display:"flex",justifyContent:"space-between", gap:"10px"}}>
           {
             navOptions.map((option, id)=>{

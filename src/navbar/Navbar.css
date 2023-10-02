@@ -7,8 +7,8 @@
     justify-content: flex-end;
     gap: 70px;
     padding: 20px;
-    overflow: hidden;
-    z-index: 2;
+    z-index: 200;
+    position: relative;
    
 
 }
@@ -41,6 +41,7 @@
 
 .nav-options{
     width: 40%;
+   
 }
 .nav-options ul{
     display: flex;
@@ -63,13 +64,53 @@
 }
 
 
+.nav-menu{
+    display: none;
+    cursor: pointer;
 
+}
 @media screen and (max-width: 850px) {
+    .nav-bar{
+        justify-content: space-between;
+    }
+    .nav-options{
+        position: absolute;
+        width: 100vw;
+        height:0;
+        top: 100%;
+        z-index: -100000;
+        background-color: inherit;
+        overflow: hidden;
+         transition: all 500ms;
+        animation: nav-animation 500ms forwards ease-out;
+       
+    }
+    .nav-menu{
+        display: block;
+    }
+    @keyframes nav-animation {
+        0%{
+            height: 0;
+        }
+        100%{
+            height: 160px;
+        }
+    }
     .nav-options ul li{
         font-size: 11px;
     
     }
     .nav-options ul{
+       
         padding-left: 9px;
+        display: flex;
+        flex-direction: column;
+        background-color: inherit;
+        align-items: center;
+        height: 0%;
+        
+    }
+    .nav-options ul li{
+        padding: 5px;
     }
    }

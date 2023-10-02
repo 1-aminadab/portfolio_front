@@ -1,7 +1,8 @@
 import React from 'react'
-import ProfileImage from '../../assets/profile-image.jpeg'
+import ProfileImage from '../../assets/profile-image.jpg'
 import MyCV from '../../assets/my-cv/my-cv.pdf'
 import DownloadOutlinedIcon from '@mui/icons-material/DownloadOutlined';
+
 import './Welcome.css'
 function Welcome() {
   return (
