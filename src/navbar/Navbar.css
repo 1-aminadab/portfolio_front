@@ -72,8 +72,8 @@
 }
 @media screen and (max-width: 850px) {
     .nav-bar{
-        justify-content: space-evenly;
-        padding-right: 30px;
+        justify-content: center;
+        gap: 50px;
 
     }
     .day-night-toggle{
