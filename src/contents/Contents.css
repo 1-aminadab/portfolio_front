@@ -6,12 +6,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Noto+Sans&family=Playfair+Display&family=Roboto:ital,wght@1,100&family=Ruwudu&family=Tilt+Prism&display=swap");
 .contents {
   margin: 70px;
- 
   background-color: var(--dark-mode);
 }
 
 .welcome-message {
-  padding:10px 0px;
+  padding:10pz 0px;
   display: flex;
   align-items: center;
   gap: 50px;
@@ -175,7 +174,6 @@
 .project-preview {
   margin: 20px;
   cursor: pointer;
- 
 }
 
 .project-preview img {
@@ -189,7 +187,7 @@
  position: absolute;
  height: 100vh;
  width: 100vw;
- z-index:10000;
+ z-index:10;
  background-color: rgba(0, 0, 0, 0.493);
  display: flex;
  align-items: center;
