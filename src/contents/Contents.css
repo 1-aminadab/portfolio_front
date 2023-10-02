@@ -10,7 +10,7 @@
 }
 
 .welcome-message {
-  padding:10pz 0px;
+  padding:10px 20px;
   display: flex;
   align-items: center;
   gap: 50px;
