@@ -8,7 +8,7 @@ import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
 import Button from 'react-bootstrap-button-loader';
 
-
+import { useSelector } from 'react-redux';
 
 import axios from 'axios';
 
@@ -21,7 +21,7 @@ const Contact = () => {
   const [success, setSuccess] = useState()
   const [loading, setLoading] = useState(false)
   const [color, setColor]= useState()
- 
+  const {darkMode} = useSelector((state)=> state.darkMode)
   const handleNameChange = (e) => {
     setName(e.target.value);
   };
@@ -61,7 +61,7 @@ const Contact = () => {
   };
   console.log(name, email, message);
   return (
-    <div className="contact-page" id='contact'>
+    <div  style={darkMode ? styles : {}}  className="contact-page" id='contact'>
       <h1>Contact Me</h1>
       <form>
         <div className="form-group">
@@ -111,5 +111,8 @@ const Contact = () => {
     </div>
   );
 };
-
+const styles = {
+  backgroundColor:'rgba(4, 4, 4, 0.534)',
+  border: '2px solid rgb(138, 138, 138)'
+}
 export default Contact;

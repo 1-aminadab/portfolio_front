@@ -2,11 +2,13 @@ import React from 'react'
 import ProfileImage from '../../assets/profile-image.jpg'
 import MyCV from '../../assets/my-cv/my-cv.pdf'
 import DownloadOutlinedIcon from '@mui/icons-material/DownloadOutlined';
-
+import { useSelector } from 'react-redux';
 import './Welcome.css'
 function Welcome() {
+  const {darkMode} = useSelector((state)=> state.darkMode)
+  console.log(darkMode);
   return (
-    <div className="welcome-message" id='home'>
+    <div style={darkMode ? styles : {}} className="welcome-message" id='home'>
     <div className="message">
 
         <h1 style={{fontSize:'25px'}}>Hi I'm <span className="my-name">Amanuel</span> <br /> a <span>young</span> passionate website developer with strong technical <span>skills</span>  and a passion for creating <span>impactful</span>  online experiences</h1>
@@ -28,5 +30,8 @@ function Welcome() {
 
   )
 }
-
+const styles = {
+  backgroundColor:'rgba(4, 4, 4, 0.534)',
+  border: '2px solid rgb(138, 138, 138)'
+}
 export default Welcome

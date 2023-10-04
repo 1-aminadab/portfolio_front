@@ -1,5 +1,7 @@
 import React, { useEffect, useState, useLayoutEffect } from "react";
 import "./Navbar.css";
+import { useDispatch } from "react-redux";
+import { switchDardMode } from "../features/ld_mode/mode";
 /// Toggle package
 import DayNightToggle from "react-day-and-night-toggle";
 // ICONS
@@ -15,9 +17,12 @@ function Navbar() {
   const [darkMode, setDarkMode] = useState(false);
   const [clickedOption, setClickedOption] = useState(0);
   const [openNav, setOpenNav] = useState(false);
+  const dispatch = useDispatch()
   useEffect(() => {
     handleDarkmode();
+    dispatch(switchDardMode(darkMode))
   }, [darkMode]);
+  
 
   const clickHandler = (id) => {
     setClickedOption(id);
@@ -101,5 +106,7 @@ function Navbar() {
     </div>
   );
 }
-
+const styles = {
+  color:'white'
+}
 export default Navbar;
