@@ -25,6 +25,7 @@ function Skills() {
             <li>Javascript</li>
             <li>Python</li>
             <li>dart</li>
+            <li>php</li>
           </ul>
         </div></Tilt>
         <Tilt options = {defaultOptions}>
@@ -37,6 +38,7 @@ function Skills() {
             <li>Redux</li>
             <li>Expres js</li>
             <li>Django</li>
+            <li>Laravel</li>
             <li>PyQt</li>
             <li>OpenCv</li>
           </ul>
