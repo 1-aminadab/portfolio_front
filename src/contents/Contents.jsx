@@ -7,7 +7,7 @@ import Review from './projects/review/Review'
 import './Contents.css'
 function Contents() {
   var [circleArray, setCircleArray] = useState([])
-  var circleSize = 100
+  var circleSize = 110
   useEffect(()=>{
     for (let index = 0; index < 20; index++) {
       setCircleArray((prev)=>{
