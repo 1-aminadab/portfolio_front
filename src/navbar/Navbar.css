@@ -9,13 +9,10 @@
     padding: 20px ;
     z-index: 200;
     position: relative;
-  
-   
-
 }
 .nav-blur{
     background-color: var(--dark-mode);
-    opacity: 0.6;
+    opacity: 0.9;
     backdrop-filter: blur(15px);
     transition: all 100px;
     position:fixed;

@@ -2,11 +2,9 @@
 .app{
   height: 100vh;
   overflow-x: hidden;
-
   color:var(--light-mode);
   font-size: larger;
   background-color:var(--dark-mode) ;
-  
 }
 .message{
   margin-top: 20px;

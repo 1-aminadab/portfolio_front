@@ -30,7 +30,7 @@ function Navbar() {
   const handleDarkmode = () => {
     document.documentElement.style.setProperty(
       "--dark-mode",
-      `${darkMode ? "#2e2e2e" : "#f6f6f6"}`
+      `${darkMode ? "#222" : "rgb(220,220,220)"}`
     );
     document.documentElement.style.setProperty(
       "--light-mode",
