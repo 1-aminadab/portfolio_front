@@ -52,7 +52,7 @@ function Skills() {
           <div>
             <h1>Database</h1>
             <ul>
-              <li>Mondodb</li>
+              <li>Mongodb</li>
               <li>Mysql</li>
             </ul>
           </div>

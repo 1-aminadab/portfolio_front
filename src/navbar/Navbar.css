@@ -12,7 +12,7 @@
 }
 .nav-blur{
     background-color: var(--dark-mode);
-    opacity: 0.9;
+    opacity: 0.8;
     backdrop-filter: blur(15px);
     transition: all 100px;
     position:fixed;
