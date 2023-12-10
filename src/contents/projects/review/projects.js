@@ -36,16 +36,38 @@ import Safetrack_9 from '../../../assets/safe-track/image_9.png'
 import Safetrack_10 from '../../../assets/safe-track/image_10.png'
 import Safetrack_11 from '../../../assets/safe-track/image_11.png'
 import Safetrack_12 from '../../../assets/safe-track/image_12.png'
+
 const data = [
     {
+        projectTitle:"Full-stack",
+        projectName: "Wisdom",
+        projectThumbnail:Telegram,
+        websiteLink:"https://wiseconnect.onrender.com",
+        projectPath:[ ],
+        description:"Connecting learners with expert tutors for personalized education",
+        githubLink:"https://github.com/1-aminadab/telegram-clone",
+        
+       },
+    {
      projectTitle:"fullstack",
-     projectName: "clearance",
+     projectName: "RestaurantAlpha",
      projectThumbnail:Clearance,
+     websiteLink:"https://restaurantalpha.onrender.com",
      projectPath:[],
-     description:"university clearance system",
+     description:"A gastronomic journey awaits at our exquisite eatery",
      githubLink:"https://github.com/1-aminadab/Clearance_system",
      
     },
+    {
+        projectTitle:"fullstack",
+        projectName: "tutor",
+        projectThumbnail:PersonalTutor,
+        websiteLink:"https://ethioherantutor.com/",
+        projectPath:[ ],
+        description:"personal tutor websie to shar files with student.",
+        githubLink:"",
+        
+       },
     {
         projectTitle:"fullstack",
         projectName: "safetruck",
@@ -55,15 +77,7 @@ const data = [
         githubLink:"https://github.com/1-aminadab/Inventory_Management",
         
        },
-       {
-        projectTitle:"fullstack",
-        projectName: "tutor",
-        projectThumbnail:PersonalTutor,
-        projectPath:[ ],
-        description:"personal tutor websie to shar files with student.",
-        githubLink:"",
-        
-       },
+      
        {
            projectTitle:"fullstack",
            projectName: "education",
@@ -73,15 +87,7 @@ const data = [
            githubLink:"https://github.com/1-aminadab/Edu_hub",
            
           },
-        //   {
-        //     projectTitle:"frontend",
-        //     projectName: "bank-ui",
-        //     projectThumbnail:BankUi,
-        //     projectPath:[ ],
-        //     description:"currency ui",
-        //     githubLink:"",
-            
-        //    },
+       
            {
                projectTitle:"frontend",
                projectName: "chimny",
@@ -91,15 +97,7 @@ const data = [
                githubLink:"https://github.com/1-aminadab/Chimney_react_chat_app_ui",
                
               },
-              {
-                projectTitle:"frontend",
-                projectName: "telegram",
-                projectThumbnail:Telegram,
-                projectPath:[ ],
-                description:"telegram website clone",
-                githubLink:"https://github.com/1-aminadab/telegram-clone",
-                
-               },
+            
                {
                    projectTitle:"mobile-app",
                    projectName: "gratuation app",
