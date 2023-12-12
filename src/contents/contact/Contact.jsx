@@ -6,7 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
-import Button from 'react-bootstrap-button-loader';
+import { Button } from '@mui/material';
 
 import { useSelector } from 'react-redux';
 
