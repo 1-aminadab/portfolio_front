@@ -54,7 +54,7 @@ const data = [
      projectThumbnail:Clearance,
      websiteLink:"https://restaurantalpha.onrender.com",
      projectPath:[],
-     description:"A gastronomic journey awaits at our exquisite eatery",
+     description:"A Restaurant Website",
      githubLink:"https://github.com/1-aminadab/Clearance_system",
      
     },
