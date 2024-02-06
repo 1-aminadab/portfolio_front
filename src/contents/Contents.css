@@ -12,7 +12,6 @@
 
 .random{
     position: absolute;
-    
     background:linear-gradient(135deg,rgba(0, 238, 255, 0.034), rgba(0, 5, 1, 0.048));
     border-radius: 50%;
     z-index: inherit;

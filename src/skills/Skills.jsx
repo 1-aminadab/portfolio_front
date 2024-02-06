@@ -36,11 +36,13 @@ function Skills() {
               Frameworks/ <br /> Library's
             </h1>
             <ul>
-              <li>Rect js</li>
+              <li>React js</li>
+              <li>React Native</li>
               <li>Next js</li>
               <li>Node js</li>
-              <li>Redux</li>
               <li>Expres js</li>
+              <li>Nest js</li>
+              <li>Redux</li>
               <li>Django</li>
               <li>Laravel</li>
               <li>PyQt</li>
@@ -53,6 +55,7 @@ function Skills() {
             <h1>Database</h1>
             <ul>
               <li>Mongodb</li>
+              <li>Postgresql</li>
               <li>Mysql</li>
             </ul>
           </div>

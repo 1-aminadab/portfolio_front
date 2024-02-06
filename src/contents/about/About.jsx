@@ -5,7 +5,7 @@ function About() {
     <div className="about" id="about">
        <h1>About me</h1>
        <p>
-        Hi, I'm Amanuel, a full stack developer with 2.5 years of experience. I specialize in creating beautiful and functional web applications. With a strong foundation in both front-end and back-end development, I seamlessly transition between different parts of the development process.
+       Hi, I'm Amanuel, a seasoned full stack developer with over 2.5 years of professional experience. I possess a strong expertise in crafting visually stunning and highly functional web applications. My skill set encompasses both front-end and back-end development, allowing me to seamlessly navigate through various stages of the development lifecycle.
       </p>
       <p>
       I have a degree in Computer Engineering and have freelanced on appwork for various clients, gaining valuable experience and honing my skills. Working on appwork has provided me with opportunities to work on diverse projects and collaborate with clients from different industries. Through these experiences, I have developed a deep understanding of client requirements and the ability to deliver high-quality solutions within deadlines
