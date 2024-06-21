@@ -268,6 +268,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link:"www.linkedin.com/in/amanuel-tadesse"
+    link:"www.linkedin.com/in/amanueltadesse-870416232"
   },
 ];
