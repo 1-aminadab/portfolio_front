@@ -104,11 +104,11 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Wisdom Tutoring",
+    title: "Bluenile resort",
     des: "A platform for online tutoring, connecting tutors with parents and students.",
-    img: "/wisdom.png",
+    img: "/bluenile.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/express.svg", "/nodejs.svg"],
-    link: "https://wiseconnect.onrender.com",
+    link: "https://bluenileresorthotels-avanti.com/",
   },
   {
     id: 6,
