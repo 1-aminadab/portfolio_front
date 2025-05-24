@@ -72,51 +72,76 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Besew Online Hybrid Marketplace Mobile App",
-    des: "Discover the features of our innovative marketplace app, offering a seamless hybrid shopping experience.",
-    img: "/besew.png",
-    iconLists: ["/next.svg","/mobile-app.svg",  "/tail.svg", "/ts.svg", "/nest.svg", "/pulsar.svg"],
-    link: "https://play.google.com/store/apps/details?id=com.besewonline",
+    title: "Addis Bike",
+    des: "Bike Transport & Rental Services in Addis Ababa",
+    img: "/addisbike.png",
+    iconLists: [
+      "/re.svg",
+      "/mobile-app.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/express.svg",
+      "/socket-io-white.svg",
+      "/faida.png",
+      "/telebirr.png",
+    ],
+    link: "https://play.google.com/store/apps/details?id=com.second_project",
   },
   {
     id: 2,
-    title: "Bizify Spot",
-    des: "Enhance your video conferencing with Yoom. Effortlessly connect with colleagues and friends.",
-    img: "/bizfy.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/express.svg", "/socket-io-white.svg", "/pulsar.svg"],
-    link: "https://qa.bizfyspot.com/",
+    title: "Bluenile resort",
+    des: "A platform for online tutoring, connecting tutors with parents and students.",
+    img: "/bluenile.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/wordpress.png",
+      "/ts.svg",
+      "/express.svg",
+      "/nodejs.svg",
+    ],
+    link: "https://bluenileresorthotels-avanti.com/",
   },
   {
     id: 3,
+    title: "Guzo go",
+    des: "Convenient booking options for both domestic and international flights.",
+    img: "/guzogo.png",
+    iconLists: ["/re.svg", "/mobile-app.svg", "/ts.svg"],
+    link: "https://play.google.com/store/apps/details?id=com.guzogo.app",
+  },
+
+  {
+    id: 4,
+    title: "Shelf",
+    des: "Inventory management solution transforms your mobile device into a powerful tool for managing sales and inventory.",
+    img: "/shelf.png",
+    iconLists: ["/re.svg", "/mobile-app.svg", "/tail.svg", "/nodejs.svg"],
+    link: "https://play.google.com/store/apps/details?id=com.mposapp",
+  },
+  {
+    id: 5,
     title: "Ethio Heran Tutor",
     des: "A personal tutoring website catering to students from primary school to university.",
     img: "/ethio-heran.png",
     iconLists: ["/re.svg", "/tail.svg", "/express.svg", "/nodejs.svg"],
     link: "https://ethioherantutoring.com/",
   },
+
   {
-    id: 4,
-    title: "M-POS Mobile App",
-    des: "Experience the recreated Apple iPhone 15 Pro website, featuring GSAP animations and Three.js 3D effects.",
-    img: "/p4.svg",
-    iconLists: ["/re.svg","mobile-app.svg", "/tail.svg", "/socket-io-white.svg", "nodejs.svg"],
-    link: "https://play.google.com/store/apps/details?id=com.addismpos",
-  },
-  {
-    id: 5,
-    title: "Bluenile resort",
-    des: "A platform for online tutoring, connecting tutors with parents and students.",
-    img: "/bluenile.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/express.svg", "/nodejs.svg"],
-    link: "https://bluenileresorthotels-avanti.com/",
-  },
-  {
-    id: 6,
-    title: "Warehouse Management System",
-    des: "Efficiently manage your inventory with our comprehensive warehouse management system.",
-    img: "/warehouse.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/nodejs.svg","/socket-io-white.svg"],
-    link: "",
+    id: 3,
+    title: "Besew Online Hybrid Marketplace Mobile App",
+    des: "Discover the features of our innovative marketplace app, offering a seamless hybrid shopping experience.(under development)",
+    img: "/besew.png",
+    iconLists: [
+      "/next.svg",
+      "/mobile-app.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nest.svg",
+      "/pulsar.svg",
+    ],
+    link: "https://play.google.com/store/apps/details?id=com.besewonline",
   },
   {
     id: 7,
@@ -129,7 +154,7 @@ export const projects = [
   {
     id: 8,
     title: "Computer Monitoring System Desktop App",
-    des: "Computer hardwares performance and Space Usage Monitoring System",
+    des: "Computer hardwares performance and Space Usage Monitoring System (personal project)",
     img: "/system-monitor.png",
     iconLists: ["/python.svg", "/qt.svg"],
     link: "",
@@ -137,13 +162,12 @@ export const projects = [
   {
     id: 9,
     title: "Computer Vision Security System",
-    des: "A Security System mainly using Computer Cameras to Send Peoples images around pc with email to prevent stealing",
+    des: "A Security System mainly using Computer Cameras to Send Peoples images around pc with email to prevent stealing (personal project)",
     img: "/opencv-test.jpg",
     iconLists: ["/python.svg", "/qt.svg", "/opencv.svg", "/twilio.svg"],
     link: "",
   },
 ];
-
 
 export const testimonials = [
   {
@@ -188,7 +212,7 @@ export const companies = [
   {
     id: 2,
     name: "appwrite",
-  
+
     nameImg: "/pulsar.svg",
   },
   {
@@ -215,7 +239,7 @@ export const companies = [
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },
-    {
+  {
     id: 7,
     name: "qt",
     img: "/qt.svg",
@@ -234,6 +258,20 @@ export const workExperience = [
   {
     id: 2,
     title: "Mobile App Dev - Addis Pay",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 2,
+    title: "Mobile App Dev - EagleLion Systems Technology",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 2,
+    title: "Mobile App Dev - Telsem Technology",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -258,16 +296,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link:"http://github.com/1-aminadab"
+    link: "http://github.com/1-aminadab",
   },
   {
     id: 2,
     img: "/telegram-white.svg",
-    username:"@ready2develop"
+    username: "@ready2develop",
   },
   {
     id: 3,
     img: "/link.svg",
-    link:"www.linkedin.com/in/amanueltadesse-870416232"
+    link: "www.linkedin.com/in/amanueltadesse-870416232",
   },
 ];
