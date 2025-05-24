@@ -2,8 +2,7 @@ import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
-
+import Lottie from "react-lottie-player";
 import { cn } from "@/lib/utils";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -181,7 +180,12 @@ export const BentoGridItem = ({
                 }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie
+                  loop={copied}
+                  play={copied}
+                  animationData={animationData}
+                  style={{ width: 400, height: 200 }}
+                />{" "}
               </div>
 
               <MagicButton
